@@ -11,3 +11,4 @@ __credits__ = 'Alexander Groth'
 
 from easyserver.server.easyserver import EasyServer
 from easyserver.client.easyclient import EasyClient
+from easyserver.networking.network_message import NetworkMessage
