@@ -9,9 +9,11 @@ class EasyServer:
     A high level server class that handles the connection of clients and transportation
     of data between the server and the clients.
     """
-    def __init__(self, host, port, tick_rate=DefaultValues.TICK_RATE) -> None:
+    def __init__(self, host, port, tick_rate=DefaultValues.TICK_RATE, buffer_size=DefaultValues.BUFFER_SIZE) -> None:
         self.host = host
         self.port = port
+        self.tick_rate = tick_rate
+        self.buffer_size = buffer_size
 
         self.__clients = []
         self.__stop_flag = False
