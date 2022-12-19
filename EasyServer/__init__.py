@@ -9,6 +9,6 @@ __author__ = 'Alexander Groth'
 __credits__ = 'Alexander Groth'
 
 
-from easyserver.server.easyserver import EasyServer
-from easyserver.client.easyclient import EasyClient
-from easyserver.networking.network_message import NetworkMessage
+from EasyServer.server.easyserver import EasyServer
+from EasyServer.client.easyclient import EasyClient
+from EasyServer.networking.network_message import NetworkMessage
